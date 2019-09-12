@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #3BC47D;
+    box-shadow: 0 0 1em gray;
+}
+
+.header h2 {
+    color: white;
+    padding: 10px;
+}
+
+.menu {
+    box-shadow: 0 0 1em gray;
+    height: 85vh;
+    border-radius: 10px;
+}
+
+.menu div a {
+    color: gray;
+    text-decoration: none;
+}
+
+.menu div {
+    cursor: pointer;
+}
+
+.menu div:hover a {
+    /* box-shadow: 0 0 1em gray; */
+    color: #3F6AD8;
+}
+
+.producto {
+    background-color: #3F6AD8;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 0 1em gray;
+    color: white;
+}
+
+.validacion {
+    display: none;
+    background-color: red;
+    position: absolute;
+    text-align: center;
+    width: 180px;
+    padding: 2%;
+    margin: 7px;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
